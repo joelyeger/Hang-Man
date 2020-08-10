@@ -1,11 +1,3 @@
-#########################################################
-#FILE : hangman.py
-#WRITER : Joel Yeger, joelyeger
-#EXERCISE : intro2cs2 ex4 2020
-#DESCRIPTION : A game of hangman
-#STUDENTS I DISCUSSED THE EXERCISE WITH: none
-#WEB PAGES I USED: none
-#########################################################
 
 import hangman_helper
 
@@ -19,7 +11,7 @@ SORRY = "Sorry this isn't the word"
 
 
 def update_word_pattern(word,pattern,letter):
-    """updates the pattern acorrding to the given word"""
+    """updates the pattern according to the given word"""
     num_index = 0
     if letter in word:
         word_list = list(word)
